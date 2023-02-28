@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Trebuchet MS", sans-serif;
+    background-image: url("./images/back.png");
+    background-position: top center;
+    width: 50%;
+    left: 25%;
+    position: absolute;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #3e434d;
+}
+
+.pressed:active {
+    transform: scale(0.95);
+}
